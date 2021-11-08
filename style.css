@@ -1,3 +1,4 @@
+/* Overall CSS */
 body {
     display: flex;
     flex-direction: column;
@@ -6,13 +7,14 @@ body {
     margin: 0px;
 }
 
+/* Header */
 .head {
     background-color: #1F2937;
     display: flex;
-    padding: 0 100px;
+    padding: 20px 100px;
 }
 
-.main-head {
+.head-logo {
     color: #F9FAF8;
     font-size: 24px;
 }
@@ -29,21 +31,7 @@ a {
     gap: 20px;
 }
 
-.footer {
-    display: flex;
-    background-color: #1F2937;
-    font-size: 18px;
-    color: #E5E7EB;
-    justify-content: center;
-    align-items: center;
-    padding: 40px 0;
-
-}
-.image {
-    height: 250px;
-    width: auto;
-}
-
+/* Hero Section */
 .hero {
     display: flex;
     justify-content: center;
@@ -54,23 +42,28 @@ a {
     padding: 75px;
 }
 
-h1 {
+.hero img {
+    height: 250px;
+    width: auto;
+}
+
+.hero-content h1 {
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
     display: inline;
 }
-.content {
+.hero-content {
     width: 500px;
 }
 
-.content p {
+.hero-content p {
     font-size: 18px;
     color: #E5E7EB;
     
 }
 
-.content button {
+.hero-content button {
     background-color: #3882F6;
     padding: 5px 20px;
     border-radius: 5px;
@@ -80,13 +73,16 @@ h1 {
     flex: 1;
 }
 
+
+/* Info Section */
 .info {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 50px 100px;
 }
 
-.members {
+.cards {
     display: flex;
     gap: 25px;
 
@@ -98,7 +94,7 @@ h1 {
     color: #1F2937;
 }
 
-.members img {
+.cards img {
     height: 200px;
     width: 200px;
     border: 5px solid #3882F6;
@@ -106,12 +102,13 @@ h1 {
     margin: 0px;
 }
 
-.members p {
+.cards p {
     margin: 0px;
     width: 200px;
     text-align: justify;
 }
 
+/* Quote Section*/
 .quote{
     background-color: #E5E7EB;
     display: flex;
@@ -134,6 +131,7 @@ h1 {
     align-self: flex-end;
 }
 
+/* Call To Action */
 .call {
     display: flex;
     justify-content: center;
@@ -142,7 +140,7 @@ h1 {
 
 }
 
-.section {
+.call-text {
     flex: 1;
     background-color: #3882F6;
     width: auto;
@@ -153,7 +151,7 @@ h1 {
 
 }
 
-.section button {
+.call-text button {
     margin-left: auto;
     padding: 5px 20px;
     background-color: #3882F6;
@@ -165,14 +163,26 @@ h1 {
     border-style: solid;
 }
 
-.section h3 {
+.call-text h3 {
     font-size: 24px;
     font-weight: bold;
     color: #E5E7EB;
     margin: 0px;
 }
 
-.section p {
+.call-text p {
     margin: 0px;
     color: #E5E7EB;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+
 }
