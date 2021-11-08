@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
+    margin: 0px;
 }
 
 .head {
@@ -50,6 +51,7 @@ a {
     background-color: #1F2937;
     flex: 1;
     align-items: center;
+    padding: 75px;
 }
 
 h1 {
@@ -75,4 +77,36 @@ h1 {
     border: 0;
     color: #E5E7EB;
     font-weight: bold;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.members {
+    display: flex;
+    gap: 25px;
+
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.members img {
+    height: 200px;
+    width: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+    margin: 0px;
+}
+
+.members p {
+    margin: 0px;
+    width: 200px;
+    text-align: justify;
 }
