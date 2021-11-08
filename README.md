@@ -1,0 +1,1 @@
+2nd Project for The Odin Project. Focuses primarily on HTML and CSS to create a landing page.
